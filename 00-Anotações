@@ -1,0 +1,11 @@
+Codigo para compilar o Codigo
+    g++ NomeDoArquivo.cpp -o NomeDoExecutavel.exe
+
+Para rodar o executavel 
+    ./NomeDoExecutavel.exe
+
+PAra Listar o qe tem na pasta 
+    ls 
+
+Para acessar uma pasta 
+    cd Nome_Da_Pasta

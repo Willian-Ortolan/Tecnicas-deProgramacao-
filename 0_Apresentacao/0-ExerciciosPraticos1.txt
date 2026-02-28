@@ -1,0 +1,38 @@
+Você está trabalhando em um projeto desenvolvendo aplicações para dispositivos que possuem uma quantidade de memória extremamente pequena. 
+Nesta situação, é preciso otimizar ao máximo o uso e a alocação das variáveis, evitando desperdício de espaço. 
+Sua tarefa é implementar o subalgoritmo trocaValor, que deverá trocar os valores dos parâmetros recebidos entre si, 
+SEM O USO DE VARIÁVEL AUXILIAR, segundo o esboço abaixo:
+
+
+
+#include <iostream>
+using namespace std;
+
+void trocaValor(TRECHO1, TRECHO2){
+    a = TRECHO3;
+    b = TRECHO4;
+    a = TRECHO5;
+}
+
+//teste subalgoritmo
+int main(){
+    int a=5, b=7;
+    cout << a << "_" << b << endl;//5_7
+    trocaValor(a,b);
+    cout << a << "_" << b << endl;//7_5
+}
+
+
+Fonte: de autoria própria.
+Considerando os requisitos e esboço do algoritmo, desenvolva, em C++, os trechos (1 a 5) que faltam para que atendam todos os requisitos apresentados.
+Importante: só será aceito um único comando por linha/trecho.
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+2ª Questão
+Escreva um programa que simule o lançamento de moedas. 
+Deixe o programa jogar uma moeda cada vez que o usuário escolher a opção de menu “Jogar moeda”. 
+Conte o número de vezes que cada lado da moeda aparece. Exiba os resultados. 
+O programa deve chamar uma função flip separada que não recebe argumentos e retorna um valor booleano para cara ou coroa.
+
+[Nota: Se o programa simular de forma realista o lançamento de moedas, cada lado da moeda deve aparecer aproximadamente na metade das vezes.]
+
