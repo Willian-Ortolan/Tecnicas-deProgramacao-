@@ -16,12 +16,19 @@ void printIterativo(int n)
     a chamada para p sub problema deve ser para um problema do mesmo tipo so que menor
 
 2->Precisa ter pelomenos uma condição de parada (caso base)
+
+3-> achar uma maneira de unir os resultados sub-problemas para resolver o problema original
+
+obs recursão de calda é o fechamente de todas as chamadas das pilha
 */
 void printRecursivo(int n)
 {
+    // cout << n << endl; // printa do maior para o menor
     if (n > 0)
+    {
         printRecursivo(n - 1);
-    cout << n << endl;
+    }
+    cout << n << endl; // printa do menor para o maior
 }
 
 int main()
