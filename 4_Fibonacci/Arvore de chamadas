@@ -1,0 +1,7 @@
+Main
+↓
+Recebe variavel N=4
+↓
+Função fibonacci Recebe n=4
+↓
+if(n<=0) -> 

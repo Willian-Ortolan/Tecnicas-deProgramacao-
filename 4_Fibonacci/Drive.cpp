@@ -12,9 +12,9 @@ f(n) =|f[0] = 0 => constante -> caso base
 #include <iostream>
 using namespace std;
 
-long long FibRecursivo(int n)
+long long FibRecursivo(int n) // implementação naive
 {
-    if (n<=1)
+    if (n <= 1)
     { // ou if(n<=1)
         return n;
     }
